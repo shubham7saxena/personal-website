@@ -1,0 +1,3 @@
+**/themes/
+.hugo/*
+!.hugo/version
