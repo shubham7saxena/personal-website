@@ -1,0 +1,69 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Shubham Saxena"
+theme = "hugo-coder"
+
+[params]
+    author = "Shubham Saxena"
+    description = "Shubham Saxena's personal website"
+    keywords = "blog,developer,personal"
+    info = "curious about almost everything"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "Enter a text here."
+
+    dateformat = "January 2, 2006"
+
+    hideCredits = false
+    hideCopyright = false
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    commit = "https://github.com/luizdepra/hugo-coder/tree/"
+
+    rtl = false
+
+    # Use inverted colors
+    inverted = false
+
+    # Custom CSS
+    custom_css = []
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/shubham7saxena/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/_s7saxena/"
+[[params.social]]
+    name = "Medium"
+    icon = "fab fa-medium"
+    weight = 5
+    url = "https://medium.com/@shubham7"
+
+[languages]
+    [languages.en]
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Shubham Saxena"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+        author = "Shubham Saxena"
+        info = "curious about almost everything"
+        description = "Shubham Saxena's personal website"
+        keywords = "blog,developer,personal"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 1
+        url = "/"
+
+        [[languages.en.menu.main]]
+        name = "Blog"
+        weight = 2
+        url = "/posts/"
+
